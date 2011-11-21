@@ -41,7 +41,8 @@ def scrape(incr):
 
 def start():
     """docstring for start"""
-    for i in xrange(0, 300):
+    for i in xrange(1, 700):
+        print "Page %s" %i
         print scrape(i)
         time.sleep(0.3)
 
